@@ -1,4 +1,8 @@
+??? from here until ???END lines may have been inserted/deleted
 forge 'https://forge.puppet.com'
+
+mod 'apache',
+  :git = 'https://github.com/RossEpsteinKY/puppet-apache.git',
 
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
@@ -15,3 +19,4 @@ forge 'https://forge.puppet.com'
 #mod 'apache',
 #  git:    'https://github.com/puppetlabs/puppetlabs-apache',
 #  branch: 'docs_experiment'
+???END
